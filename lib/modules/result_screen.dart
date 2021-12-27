@@ -1,10 +1,10 @@
-import 'package:bmi/bottom_button.dart';
-import 'package:bmi/reusable_card.dart';
-import 'package:bmi/theme.dart';
+import 'package:bmi/shared/components/constants/bottom_button.dart';
+import 'package:bmi/shared/components/constants/reusable_card.dart';
+import 'package:bmi/shared/components/constants/theme.dart';
 import 'package:flutter/material.dart';
 
 class Result extends StatelessWidget {
-   Result(
+   const Result(
       {required this.interpretation,
       required this.bmi,
       required this.result});

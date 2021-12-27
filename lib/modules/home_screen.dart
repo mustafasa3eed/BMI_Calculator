@@ -1,10 +1,10 @@
-import 'package:bmi/calculator_brain.dart';
-import 'package:bmi/result_screen.dart';
-import 'package:bmi/rounded_icon_button.dart';
-import 'package:bmi/theme.dart';
+import 'package:bmi/shared/components/constants/calculator_brain.dart';
+import 'package:bmi/modules/result_screen.dart';
+import 'package:bmi/shared/components/constants/rounded_icon_button.dart';
+import 'package:bmi/shared/components/constants/theme.dart';
 import 'package:flutter/material.dart';
 
-import 'bottom_button.dart';
+import '../shared/components/constants/bottom_button.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = 'ResultScreen';
